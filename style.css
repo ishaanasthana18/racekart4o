@@ -23,7 +23,7 @@
     gap: 50px;
     position: fixed;
     justify-content: flex-start;
-    
+    z-index: 99;
   }
   #nav img {
     height: 4.5vw;
@@ -32,4 +32,11 @@
     text-transform: uppercase;
     font-weight: 500;
     
+  }
+
+  video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
   }
