@@ -148,3 +148,131 @@
       transform: translateX(-100%);
     }
   }
+
+
+  #about-us{
+    height: 120vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 15vh;
+
+  }
+  #about-us-in h3{
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: 900;
+
+  }
+
+  #about-us-in p{
+    font-size: 40px;
+    margin-left: 24%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    font-weight: 600;
+  }
+
+  /* #about-us-i{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+
+  /* #about-us-img{
+    height: 10px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+
+  #about-us img{
+    margin-top: 50px;
+    height: 540px;
+    width: 595px;
+    margin-left: 13% ;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    
+
+  }
+
+  #cards-container{
+    margin-top: 20vh;
+    height: 60vh;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+    z-index: 10;
+
+  }
+
+  .card{
+    height: 80%;
+    width: 28%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
+  }
+
+  #card1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4-MsLWK0ZKMQOBQ8VBUlVbPzlDao8l-8mAqKjhV0xLLoNSag3eQaNx6oP8J72BYOR3so&usqp=CAU);
+  }
+  #card2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKXaCgkvLzdLlAjTkzbpZatMBRfYNK3TvHw&usqp=CAU);
+  }
+  #card3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHzzE_YVygKif-ciWmNTJtWBuLG6sR_cmRg&usqp=CAU);
+  }
+
+  .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 30px;
+    padding-top: 160px;
+    opacity: 0;
+    transition: all ease 0.6s;
+  }
+
+  .overlay h4{
+    color: #000;
+    font-size: 40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+
+  .overlay p{
+    color: #000;
+    font-size: 18px;
+  }
+
+  .card:hover .overlay{
+    opacity: 1;
+
+  }
+.card:hover{
+  transform: rotate3d(-2, -1, 0, 20deg);
+}
