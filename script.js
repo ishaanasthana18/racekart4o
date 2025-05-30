@@ -53,7 +53,7 @@ gsap.from("#about-us, #about-us-in, #about-us-img",{
 gsap.from(".card",{
   scale: 0.8,
   opacity: 0,
-  duration: 0.5,
+  duration: 1,
   stragger: 1,
   scrollTrigger:{
     trigger: ".card",

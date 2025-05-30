@@ -68,7 +68,7 @@
     color: #b9b4b4;
     font-size: 130px;
     font-weight: 900;
-    position: relative;
+    
   }
 
   #page1 h1::before{
@@ -87,15 +87,18 @@
     font-weight: 900;
     margin-top: 65px;
     margin-bottom: 15px;
+    
   }
   #page1 h2::before{
     content: "The Level";
     position: absolute;
     color: rgb(107, 97, 97);
-    top: 51.5vh;
-    right: 775px;
+    top: 51.3vh;
+    /* right: 775px; */
     -webkit-text-stroke: 2px rgb(17, 14, 14);
      z-index: -1;
+     
+     
   }
 
   #page1 h3{
@@ -108,8 +111,8 @@
     content: "Go Kart";
     position: absolute;
     color: rgb(107, 97, 97);
-    top: 63.5vh;
-    right: 865px;
+    top: 63.4vh;
+    /* right: 865px; */
     -webkit-text-stroke: 2px rgb(17, 14, 14);
      z-index: -1;
   }
